@@ -1,7 +1,10 @@
 import React from 'react';
+import Router from './Router';
 
 const App = () => {
-  return <div>Sample text v2</div>;
+  return (
+      <Router/>
+  );
 }
 
 export default App;
