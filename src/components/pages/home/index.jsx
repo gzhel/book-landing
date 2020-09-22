@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import Header from "./header/index";
 
 const HomePage = () => {
-    return(
-        <>
-            This is a home page
-            {/* <Header/>
-            <BannerArea/>
+  return (
+    <>
+      This is a home page
+      <Header />
+      {/*<BannerArea/>
             <InfoArea/>
             <FactArea/>
             <CounterArea/>
@@ -14,8 +15,8 @@ const HomePage = () => {
             <CallToActionArea/>
             <TestomialArea/>
             <Footer/> */}
-        </>
-    )
+    </>
+  );
 };
 
 export default HomePage;
