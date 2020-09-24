@@ -1,6 +1,6 @@
 import React from "react";
 
-export const HomeFooterComponent = () => {
+export const FooterComponent = () => {
   return (
     <section className="footer">
       <div className="container">

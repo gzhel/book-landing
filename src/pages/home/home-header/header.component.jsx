@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-export const HomeHeaderComponent = () => {
+export const HeaderComponent = () => {
   const [isScrolled, setScrolled] = useState(false);
   const [isPagesListHidden, setPagesListHidden] = useState(true);
 
