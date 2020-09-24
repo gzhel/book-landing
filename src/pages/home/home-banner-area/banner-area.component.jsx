@@ -1,6 +1,6 @@
 import React from "react";
 
-const BannerArea = () => {
+export const BannerAreaComponent = () => {
   const bookPrice = 9.99;
 
   return (
@@ -26,5 +26,3 @@ const BannerArea = () => {
     </section>
   );
 };
-
-export default BannerArea;

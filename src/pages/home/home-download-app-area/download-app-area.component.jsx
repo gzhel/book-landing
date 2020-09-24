@@ -1,6 +1,6 @@
 import React from "react";
 
-const DownloadAppArea = () => {
+export const DownloadAppAreaComponent = () => {
   return (
     <section className="download-app-area">
       <div className="container">
@@ -39,5 +39,3 @@ const DownloadAppArea = () => {
     </section>
   );
 };
-
-export default DownloadAppArea;

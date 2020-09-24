@@ -1,6 +1,6 @@
 import React from "react";
 
-const FactArea = () => {
+export const FactAreaComponent = () => {
   return (
     <section className={"fact-area"}>
       <div className="overlay overlay-bg" />
@@ -17,5 +17,3 @@ const FactArea = () => {
     </section>
   );
 };
-
-export default FactArea;

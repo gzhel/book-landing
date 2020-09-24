@@ -1,6 +1,6 @@
 import React from "react";
 
-const FeedbackArea = () => {
+export const FeedbackAreaComponent = () => {
   return (
     <section className="feedback-area">
       <div className="container">
@@ -19,5 +19,3 @@ const FeedbackArea = () => {
     </section>
   );
 };
-
-export default FeedbackArea;

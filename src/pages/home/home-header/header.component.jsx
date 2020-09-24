@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+export const HomeHeaderComponent = () => {
   const [isScrolled, setScrolled] = useState(false);
   const [isPagesListHidden, setPagesListHidden] = useState(true);
 
@@ -48,5 +48,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

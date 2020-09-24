@@ -1,6 +1,6 @@
 import React from "react";
 
-const PriceArea = () => {
+export const PriceAreaComponent = () => {
   return (
     <section className="price-area">
       <div className="container">
@@ -54,5 +54,3 @@ const PriceArea = () => {
     </section>
   );
 };
-
-export default PriceArea;

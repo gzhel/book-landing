@@ -1,6 +1,6 @@
 import React from "react";
 
-const InfoArea = () => {
+export const InfoAreaComponent = () => {
   return (
     <section className={"info-area"}>
       <div className="container">
@@ -31,5 +31,3 @@ const InfoArea = () => {
     </section>
   );
 };
-
-export default InfoArea;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const CounterArea = () => {
+export const CounterAreaComponent = () => {
   return (
     <section className="counter-area">
       <div className="container">
@@ -28,5 +28,3 @@ const CounterArea = () => {
     </section>
   );
 };
-
-export default CounterArea;
