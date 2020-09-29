@@ -37,7 +37,7 @@ export const HeaderComponent = () => {
                 </Link>
                 <ul>
                   <li className={`${isPagesListHidden && "hidden"}`}>
-                    <Link to={"/"}>Elements</Link>
+                    <Link to={"/elements"}>Elements</Link>
                   </li>
                 </ul>
               </li>
