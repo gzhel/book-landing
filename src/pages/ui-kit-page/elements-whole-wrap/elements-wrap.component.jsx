@@ -1,3 +1,5 @@
+import { Button, DatePicker, version } from "antd";
+import "antd/dist/antd.css";
 import React from "react";
 import { Input } from "../../../shared/components/input.component";
 import { Select } from "../../../shared/components/select.component";
@@ -19,6 +21,17 @@ export const WholeWrapComponent = () => {
               magni maiores quam officiis unde possimus autem.
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className="section-w-padding">
+        <h3>AntdComponents</h3>
+        <div className="row">
+          <h2>antd version: {version}</h2>
+          <DatePicker />
+          <Button type={"primary"} className={"mt-10"}>
+            Button
+          </Button>
         </div>
       </div>
 
