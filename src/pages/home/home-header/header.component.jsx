@@ -31,16 +31,6 @@ export const HeaderComponent = () => {
               <li>
                 <Link to={"/"}>Course</Link>
               </li>
-              <li>
-                <Link to={"/"} className={"li-w-ul"}>
-                  Pages
-                </Link>
-                <ul>
-                  <li className={`${isPagesListHidden && "hidden"}`}>
-                    <Link to={"/elements"}>Elements</Link>
-                  </li>
-                </ul>
-              </li>
             </ul>
           </nav>
         </div>

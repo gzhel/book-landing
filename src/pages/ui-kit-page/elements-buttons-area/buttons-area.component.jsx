@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import { Button } from "../../../shared/components/button.component";
 
 export const SampleButtonsComponent = () => {
@@ -66,3 +66,4 @@ export const SampleButtonsComponent = () => {
     </section>
   );
 };
+ */
