@@ -1,6 +1,4 @@
 import React from "react";
-import { Input } from "../../../shared/components/input.component";
-import { Select } from "../../../shared/components/select.component";
 
 export const WholeWrapComponent = () => {
   return (
@@ -177,20 +175,20 @@ export const WholeWrapComponent = () => {
         <div className="row">
           <div className="column">
             <h3>Form Elements</h3>
-            <Input
+            <input
               type={"text"}
               name={"first_name"}
               placeholder={"First name"}
               className={"single-input"}
             />
-            <Input
+            <input
               type={"text"}
               name={"address"}
               placeholder={"Address"}
               className={"single-input"}
               icon={"address"}
             />
-            <Select defaultValue={"Country"} icon={"planet"} />
+            <select defaultValue={"Country"} />
             <textarea className="single-textarea" placeholder="Message" />
           </div>
         </div>
@@ -222,7 +220,7 @@ export const WholeWrapComponent = () => {
                 <input type="checkbox" />
               </div>
               <div className="select-layout">
-                <Select defaultValue={"Country"} icon={"planet"} />
+                <select defaultValue={"Country"} />
               </div>
             </div>
 
