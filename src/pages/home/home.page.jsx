@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/header.styles.css";
 import { BannerAreaComponent } from "./home-banner-area/banner-area.component";
 import { CounterAreaComponent } from "./home-counter-area/counter-area.component";
 import { DownloadAppAreaComponent } from "./home-download-app-area/download-app-area.component";
