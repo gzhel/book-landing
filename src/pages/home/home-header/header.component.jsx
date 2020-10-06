@@ -1,21 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-
+import LogoBookImg from "../../../shared/images/logo.png";
 export const HeaderComponent = () => {
-  const [isScrolled, setScrolled] = useState(false);
-  const [isPagesListHidden, setPagesListHidden] = useState(true);
-
   return (
-    <header className={`${isScrolled && "header-scrolled"}`}>
+    <header id="header">
       <div className={"container"}>
-        <div>
-          <div className={"logo"}>
+        <div
+          className={"row align-items-center justify-content-between d-flex"}
+        >
+          <div id={"logo"}>
             <Link to={"/"}>
-              <img src="" alt="" />
+              <img src={LogoBookImg} alt="" title="" />
             </Link>
           </div>
-          <nav>
-            <ul>
+          <nav id={"nav-menu-container"}>
+            <ul className={"nav-menu sf-arrows sf-with-ul"}>
               <li>
                 <Link to={"/"}>Home</Link>
               </li>
