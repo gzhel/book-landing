@@ -1,0 +1,51 @@
+.banner-area {
+    //background: linear-gradient(90deg, $primary-color 0%, $darkest-primary-color 100%) !important;
+
+    .row {
+        flex-wrap: unset;
+    }
+}
+
+.height-1008 {
+    height: 1008px;
+}
+
+.banner-content {
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+
+    h5 {
+        font-weight: 400;
+        letter-spacing: 3px;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 1em;
+        margin-top: 20px;
+    }
+
+    .desc-half-transp-bg {
+        background: rgba($color: #222, $alpha: 0.7);
+        padding-right: 10px;
+        padding-right: 10px;
+        margin: 20px 0;
+    }
+}
+
+.primary-btn {
+    background: #fff;
+    border: 1px solid transparent;
+    color: #222;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+
+    &:hover {
+        border: 1px solid #fff;
+        background: rgba($color: #222, $alpha: 0.7);
+        color: #fff;
+    }
+}
