@@ -1,27 +1,29 @@
 import React from "react";
+import InfoPhotoImage from "./../../../shared/images/about-img.jpg";
 
 export const InfoAreaComponent = () => {
   return (
-    <section className={"info-area"}>
+    <section className={"section-gap info-area"}>
       <div className="container">
-        <div className="center-layout">
-          <div className="info-photo">
-            <img src="" alt="" />
+        <div className="single-info row mt-40 align-items-center">
+          <div className="col-lg-6 col-md-12 text-center no-padding info-left">
+            <img src={InfoPhotoImage} alt="Info" />
           </div>
-          <div className="info-descripton-block">
-            <div className="info-description-content">
-              <h2>Gregory Zhelyabin</h2>
+          <div className="col-lg-6 col-md-12 no-padding info-right">
+            <div className="info-content">
+              <h2 className="pb-30">Gregory Zhelyabin</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed,
-                incidunt doloribus velit sapiente obcaecati labore deleniti
-                possimus quibusdam dolores accusantium nihil iusto? Vitae in
-                dolorem explicabo voluptas dolor porro molestias.
+                inappropriate behavior is often laughed off as “boys will be
+                boys,” women face higher conduct standards – especially in the
+                workplace. That’s why it’s crucial that, as women.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi repellat quia consequatur maiores earum aspernatur
-                minima, dolores tenetur expedita eaque perferendis dolore minus
-                molestias quos possimus fugit iste, iure similique.
+                inappropriate behavior is often laughed off as “boys will be
+                boys,” women face higher conduct standards – especially in the
+                workplace. That’s why it’s crucial that, as women. inappropriate
+                behavior is often laughed off as “boys will be boys,” women face
+                higher conduct standards – especially in the workplace. That’s
+                why it’s crucial that, as women.
               </p>
               <img src="" alt="" className="signature" />
             </div>

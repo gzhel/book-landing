@@ -3,7 +3,7 @@ import React from "react";
 export const FactAreaComponent = () => {
   return (
     <section className={"fact-area"}>
-      <div className="overlay overlay-bg" />
+      <div className="overlay-bg" />
       <div className="container">
         <div className="block-center-layout">
           <div className="block-for-padding">
