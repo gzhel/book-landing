@@ -1,6 +1,8 @@
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+@import "./../../../shared/styles/scss/theme/variables.scss";
+
 #header {
     padding: 18px 0;
     position: fixed;
@@ -125,11 +127,6 @@
     font-size: 12px;
     text-transform: uppercase;
     outline: none;
-}
-
-.nav-menu li:hover>a,
-.nav-menu>.menu-active>a {
-    // color: $primary-color;
 }
 
 .nav-menu>li {

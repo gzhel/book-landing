@@ -4,7 +4,7 @@ export const FooterComponent = () => {
   const [inputEmailFoucs, setInputEmailFocus] = useState(false);
 
   return (
-    <footer className="footer-area section-gap">
+    <footer className="footer-area section-gap" name="bottom">
       <div className="container">
         <div className="row">
           <div className="col-lg-5 col-md-6 col-sm-6">
