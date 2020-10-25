@@ -30,6 +30,9 @@ export const HeaderComponent = () => {
               <li>
                 <Link to={"/"}>Course</Link>
               </li>
+              <li>
+                <Link to={"/"}>Workshop</Link>
+              </li>
             </ul>
           </nav>
         </div>
