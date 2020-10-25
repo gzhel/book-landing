@@ -16,22 +16,16 @@ export const HeaderComponent = () => {
           <nav id={"nav-menu-container"}>
             <ul className={"nav-menu sf-arrows sf-with-ul"}>
               <li>
-                <Link to={"/"}>Home</Link>
+                <a href={"#home-banner"}>Home</a>
               </li>
               <li>
-                <Link to={"/"}>About</Link>
+                <a href={"#home-about"}>About</a>
               </li>
               <li>
-                <Link to={"/"}>Fact</Link>
+                <a href={"#home-info"}>Info</a>
               </li>
               <li>
-                <Link to={"/"}>Price</Link>
-              </li>
-              <li>
-                <Link to={"/"}>Course</Link>
-              </li>
-              <li>
-                <Link to={"/"}>Workshop</Link>
+                <Link to={"/"}>See our Workshop</Link>
               </li>
             </ul>
           </nav>

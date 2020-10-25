@@ -17,7 +17,7 @@ export const FeedbackAreaComponent = () => {
   };
 
   return (
-    <section className="feedback-area">
+    <section className="feedback-area" id="home-info">
       <div className="container">
         <div className="row d-flex justify-content-center">
           <div className="pb-60 col-lg-8">
