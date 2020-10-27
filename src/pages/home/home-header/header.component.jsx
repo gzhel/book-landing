@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import LogoBookImg from "../../../shared/images/logo.png";
 export const HeaderComponent = () => {
+  const [pagesOpened, setPagesOpened] = useState(false);
+
   return (
     <header id="header">
       <div className={"container"}>
@@ -24,8 +26,29 @@ export const HeaderComponent = () => {
               <li>
                 <a href={"#home-info"}>Info</a>
               </li>
-              <li>
-                <Link to={"/"}>See our Workshop</Link>
+              <li
+                className={"menu-has-children"}
+                onClick={() => setPagesOpened(!pagesOpened)}
+              >
+                <a href={"#workshop"} className={"menu-ul-w-arrow"}>
+                  See our Workshop
+                </a>
+                {pagesOpened && (
+                  <ul>
+                    <li>
+                      <a href={"#workshop-ex-1"}>Example 1</a>
+                    </li>
+                    <li>
+                      <a href={"#workshop-ex2"}>Example 2</a>
+                    </li>
+                    <li>
+                      <a href={"#workshop-ex3"}>Example 3</a>
+                    </li>
+                    <li>
+                      <a href={"#workshop-ex4"}>Example 4</a>
+                    </li>
+                  </ul>
+                )}
               </li>
             </ul>
           </nav>

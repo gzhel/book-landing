@@ -3,14 +3,17 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import FirstImage from "../../../shared/images/t1.png";
+import SecondImage from "../../../shared/images/t2.png";
+import ThirdImage from "../../../shared/images/t3.png";
+import ForthImage from "../../../shared/images/t4.png";
 
 export const FeedbackAreaComponent = () => {
   let settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     slidesToShow: 3,
     slidesToScroll: 1,
     infinite: true,
@@ -33,48 +36,39 @@ export const FeedbackAreaComponent = () => {
               <div class="single-testimonial item">
                 <img class="mx-auto" src={FirstImage} alt="" />
                 <p class="desc">
-                  Accessories Here you can find the best computer accessory for
-                  your laptop, monitor, printer, scanner, speaker, projector,
-                  hardware and more. laptop accessory
+                  My book "Lord of the rings" is good, but book of this guy is
+                  just awesome.
                 </p>
-                <h4>Mark Alviro Wiens</h4>
-                <p>CEO at Google</p>
+                <h4>J. R. R. Tolkien</h4>
+                <p>
+                  Prose Writer, Historian, Linguist, Philologist, Translator
+                </p>
               </div>
             </div>
             <div class="slider-item-layout">
               <div class="single-testimonial item">
-                <img class="mx-auto" src={FirstImage} alt="" />
+                <img class="mx-auto" src={SecondImage} alt="" />
                 <p class="desc">
-                  Accessories Here you can find the best computer accessory for
-                  your laptop, monitor, printer, scanner, speaker, projector,
-                  hardware and more. laptop accessory
+                  Throm-Ka. Bin mog g'thazag cha... Aka'Magosh!
                 </p>
-                <h4>Mark Alviro Wiens</h4>
-                <p>CEO at Google</p>
+                <h4>Orc from Warcraft</h4>
+                <p>Just orc</p>
               </div>
             </div>
             <div class="slider-item-layout">
               <div class="single-testimonial item">
-                <img class="mx-auto" src={FirstImage} alt="" />
-                <p class="desc">
-                  Accessories Here you can find the best computer accessory for
-                  your laptop, monitor, printer, scanner, speaker, projector,
-                  hardware and more. laptop accessory
-                </p>
-                <h4>Mark Alviro Wiens</h4>
-                <p>CEO at Google</p>
+                <img class="mx-auto" src={ThirdImage} alt="" />
+                <p class="desc">Meow... Mrrr (good book)</p>
+                <h4>Kitty Cat</h4>
+                <p>Cute cat</p>
               </div>
             </div>
             <div class="slider-item-layout">
               <div class="single-testimonial item">
-                <img class="mx-auto" src={FirstImage} alt="" />
-                <p class="desc">
-                  Accessories Here you can find the best computer accessory for
-                  your laptop, monitor, printer, scanner, speaker, projector,
-                  hardware and more. laptop accessory
-                </p>
-                <h4>Mark Alviro Wiens</h4>
-                <p>CEO at Google</p>
+                <img class="mx-auto" src={ForthImage} alt="" />
+                <p class="desc">Luke, if you see me... I am Your Father</p>
+                <h4>Darth Vader</h4>
+                <p>Father #1</p>
               </div>
             </div>
           </Slider>

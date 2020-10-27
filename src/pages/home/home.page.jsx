@@ -11,8 +11,8 @@ export const HomePage = () => {
       <BannerAreaComponent />
       <CounterAreaComponent />
       <InfoAreaComponent />
-      {/* <SeeWorkshopAreaComponent /> */}
       <FeedbackAreaComponent />
+      {/* <SeeWorkshopAreaComponent /> */}
     </>
   );
 };

@@ -11,9 +11,9 @@ export const FooterComponent = () => {
             <div className="single-footer-widget">
               <h4 className="h4-footer">About This Project</h4>
               <p>
-                I'm work as Web Developer about 1 years and 2 months. This is my
-                project for portfolio. It's not a commercial project. There I
-                show how I can work with HTML & CSS & React stack.
+                I'm work as Web Developer about 1 years and 2 months. <br />
+                This is my project for portfolio. It's not a commercial project.
+                There I show how I can work with HTML & CSS & React stack.
               </p>
             </div>
           </div>
