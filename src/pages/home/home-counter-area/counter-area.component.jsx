@@ -2,7 +2,7 @@ import React from "react";
 
 export const CounterAreaComponent = () => {
   return (
-    <section className="counter-area mt-120">
+    <section className="counter-area">
       <div className="container">
         <div className="row justify-content-center">
           <div

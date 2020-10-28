@@ -9,8 +9,8 @@ export const HomePage = () => {
   return (
     <>
       <BannerAreaComponent />
-      <CounterAreaComponent />
       <InfoAreaComponent />
+      <CounterAreaComponent />
       <FeedbackAreaComponent />
       {/* <SeeWorkshopAreaComponent /> */}
     </>
